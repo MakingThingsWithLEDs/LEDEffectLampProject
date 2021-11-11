@@ -1,4 +1,4 @@
-# LED Effect Lamp For Teensy 4.0 / WS2812B / MSGEQ7
+# RGB LED Effect Lamp For Teensy 4.0 / WS2812B / MSGEQ7
 ![Github Image](https://user-images.githubusercontent.com/77110859/126079820-e466e626-3ed6-4a38-a151-e06197d52e65.png)
 ### Latest Code Demo: https://youtu.be/vRCNvgOdEIo
 
@@ -10,7 +10,7 @@
 | TorchOrange					    | Lava				            | BlackAndBlueAudio         |ColorWaves|
 | TorchPurple					    | Ocean				            | BlackAndWhiteAudio        |Confetti|
 |                                   | Party	                        | CloudAudio                |Fire2012WithPalette|
-| TorchRed					        | Rainbow	                    | FaingSpectrogram          |Fireflies|
+| TorchRed					        | Rainbow	                    | FallingSpectrogram          |Fireflies|
 | TorchWhite					    | RainbowStripe			        | FireAudio1                |FireNoise|
 |								    | Spectrum		                | FireAudio2                |HueCycle|
 |								    | Temperature		            | FireAudio3                |IncandescentTwinkles|
