@@ -16,13 +16,9 @@
  * 
  * ---------------------------------------------------------------------------------------------------*
  * 
- * Modified by RMProjectsUK
+ * Modified by RMProjectsUK https://www.youtube.com/c/RMProjectsUK
  * I have left all previous comments from the original code writers in place, i ask you do the same.
  * If you use this code for your own projects and upload it please link back to the original sources.
- * 
- * Update 1: https://www.youtube.com/watch?v=nxo2Ii0Bwlg
- * Update 2: https://www.youtube.com/watch?v=vRCNvgOdEIo
- * Update 3:
  * 
  */
 
@@ -136,7 +132,7 @@ uint8_t gHue = 0; // rotating "base color" used by many of the patterns
 #include "TorchRed.h"
 #include "TorchGreen.h"
 #include "TorchBlue.h"
-#include "TorchChemical.h"
+#include "FireChemical.h"
 #include "TorchRainbow.h"
 #include "TorchPurple.h"
 #include "TorchOrange.h"
@@ -148,7 +144,7 @@ const PatternList patterns = {      // remove or add // to enable/disable effect
 
 //--Fire-Lamp-Effects--
   TorchBlue,
-  TorchChemical,
+  FireChemical,
   TorchGreen,
   TorchOrange,
   TorchPurple,
