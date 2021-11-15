@@ -132,7 +132,7 @@ uint8_t gHue = 0; // rotating "base color" used by many of the patterns
 #include "Wave.h"
 #include "Fire2012WithPalette.h"
 #include "Fire2012Rainbow.h"
-#include "TorchWhite.h"
+#include "FireWhite.h"
 #include "TorchRed.h"
 #include "TorchGreen.h"
 #include "TorchBlue.h"
@@ -154,7 +154,7 @@ const PatternList patterns = {      // remove or add // to enable/disable effect
   TorchPurple,
 //  TorchRainbow, // work in progress
   TorchRed,
-  TorchWhite,
+  FireWhite,
 
 //--Lava-Plasma-Lamp-Effects--
   BlackAndWhite,
