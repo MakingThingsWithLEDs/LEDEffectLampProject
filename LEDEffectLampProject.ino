@@ -35,13 +35,13 @@
 #define IR_RECV_PIN 12                          // Pin for use with an IR remote control
 #define COLOR_ORDER GRB                         // LED order Green, Red, Blue as default
 #define CHIPSET     1, WS2812B                  // LED Chipset if using teensy 4.0 or above add 1, if below remove 1,
-#define NUM_LEDS    180                         // How many leds total?
+#define NUM_LEDS    174                         // How many leds total?
 #define MAX_POWER_MILLIAMPS 1000                // Power Supply In m/A 1000=1amp 5000=5amp 10000=10amp etc.
 #define BUTTON_1_PIN 16
 #define BUTTON_2_PIN 17
 
 const uint8_t MATRIX_WIDTH = 6;                 // Edit this to your matrix width
-const uint8_t MATRIX_HEIGHT = 30;               // Edit this to your matrix height
+const uint8_t MATRIX_HEIGHT = 29;               // Edit this to your matrix height
 
 uint16_t XY(uint8_t x, uint8_t y);
 void dimAll(byte value);
@@ -87,7 +87,7 @@ typedef uint16_t(*PatternFunctionPointer)();
 typedef PatternFunctionPointer PatternList [];
 #define ARRAY_SIZE(A) (sizeof(A) / sizeof((A)[0]))
 
-int autoPlayDurationSeconds = 30;                                     // Set automatic play time per effect adjust as required
+int autoPlayDurationSeconds = 60;                                     // Set automatic play time per effect adjust as required
 unsigned int autoPlayTimeout = 10;
 bool autoplayEnabled = true;                                          // Disable / Enable automatic play function, use false if you wish to use momentary switch to control effects.
 
