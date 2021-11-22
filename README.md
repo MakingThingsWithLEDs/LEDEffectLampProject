@@ -1,6 +1,5 @@
 # LED Effect Lamp For Teensy 4.0 / WS2812B / MSGEQ7
 ![Github Image](https://user-images.githubusercontent.com/77110859/126079820-e466e626-3ed6-4a38-a151-e06197d52e65.png)
-### Latest Code Demo: https://youtu.be/vRCNvgOdEIo
 
 | Fire Lamp                         | Lava / Plasma Lamp            | Sound Reactive            | Other Effects         |
 | --------------------------------- | ----------------------------- | ------------------------- | --------------------- |
@@ -29,5 +28,5 @@
 
 ### Support
 **How To Upload:** https://www.youtube.com/watch?v=rdC7tHk-8rY
-
+**Making Videos:** https://youtube.com/playlist?list=PLuTvWrqvrCQECrZOw2NErXfjMRVwfldwu
 **Original Code:** https://www.youtube.com/watch?v=64X5sJJ4YKM
