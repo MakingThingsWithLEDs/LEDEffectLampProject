@@ -36,7 +36,7 @@
 #define COLOR_ORDER GRB                         // LED order Green, Red, Blue as default
 #define CHIPSET     1, WS2812B                  // LED Chipset if using teensy 4.0 or above add 1, if below remove 1,
 #define NUM_LEDS    174                         // How many leds total?
-#define MAX_POWER_MILLIAMPS 1000                // Power Supply In m/A 1000=1amp 5000=5amp 10000=10amp etc.
+#define MAX_POWER_MILLIAMPS 3000                // Power Supply In m/A 1000=1amp 5000=5amp 10000=10amp etc.
 #define BUTTON_1_PIN 16
 #define BUTTON_2_PIN 17
 
