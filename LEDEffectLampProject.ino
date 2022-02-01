@@ -36,7 +36,7 @@
 #define COLOR_ORDER GRB                         // LED order Green, Red, Blue as default
 #define CHIPSET     1, WS2812B                  // LED Chipset if using teensy 4.0 or above add 1, if below remove 1,
 #define NUM_LEDS    174                         // How many leds total?
-#define MAX_POWER_MILLIAMPS 3000                // Power Supply In m/A 1000=1amp 5000=5amp 10000=10amp etc.
+#define MAX_POWER_MILLIAMPS 5000                // Power Supply In m/A 1000=1amp 5000=5amp 10000=10amp etc.
 #define BUTTON_1_PIN 16
 #define BUTTON_2_PIN 17
 
@@ -87,7 +87,7 @@ typedef uint16_t(*PatternFunctionPointer)();
 typedef PatternFunctionPointer PatternList [];
 #define ARRAY_SIZE(A) (sizeof(A) / sizeof((A)[0]))
 
-int autoPlayDurationSeconds = 60;                                     // Set automatic play time per effect adjust as required
+int autoPlayDurationSeconds = 40;                                     // Set automatic play time per effect adjust as required
 unsigned int autoPlayTimeout = 10;
 bool autoplayEnabled = true;                                          // Disable / Enable automatic play function, use false if you wish to use momentary switch to control effects.
 
@@ -129,13 +129,13 @@ uint8_t gHue = 0; // rotating "base color" used by many of the patterns
 #include "Fire2012WithPalette.h"
 #include "Fire2012Rainbow.h"
 #include "FireWhite.h"
-#include "TorchRed.h"
-#include "TorchGreen.h"
-#include "TorchBlue.h"
+#include "FireRed.h"
+#include "FireGreen.h"
+#include "FireBlue.h"
 #include "FireChemical.h"
-#include "TorchRainbow.h"
-#include "TorchPurple.h"
-#include "TorchOrange.h"
+#include "FireRainbow.h"
+#include "FirePurple.h"
+#include "FireOrange.h"
 #include "AudioLogic.h"
 #include "AudioPatterns.h"
 
@@ -143,31 +143,31 @@ uint8_t gHue = 0; // rotating "base color" used by many of the patterns
 const PatternList patterns = {      // remove or add // to enable/disable effects
 
 //--Fire-Lamp-Effects--
-  TorchBlue,
-  FireChemical,
-  TorchGreen,
-  TorchOrange,
-  TorchPurple,
-//  TorchRainbow, // work in progress
-  TorchRed,
-  FireWhite,
+//  FireBlue,
+//  FireChemical,
+//  FireGreen,
+//  FireOrange,
+//  FirePurple,
+//  FireRainbow, // work in progress
+//  FireRed,
+//  FireWhite,
 
 //--Lava-Plasma-Lamp-Effects--
-  BlackAndWhite,
-  Cloud,   
-  ColorCube,
-  Aurora,
-  DeepSea,
-  Forest,
-  Lava,
-  OceanBreeze,
-  Ocean,
+//  BlackAndWhite,
+//  Cloud,   
+//  ColorCube,
+//  Aurora,
+//  DeepSea,
+//  Forest,
+//  Lava,
+//  OceanBreeze,
+//  Ocean,
   Party,
-  LavaLampRainbow,
-  LavaLampRainbowStripe,
-  Shikon,
-  Spectrum,
-  Temperature,
+//  LavaLampRainbow,
+//  LavaLampRainbowStripe,
+//  Shikon,
+//  Spectrum,
+//  Temperature,
 
 //--Sound-Reactive-Effects--
 //  AnalyzerColumns,
