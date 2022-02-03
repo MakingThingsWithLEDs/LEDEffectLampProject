@@ -29,6 +29,6 @@
 ### Support
 **How To Upload:** https://www.youtube.com/watch?v=rdC7tHk-8rY
 
-**Making Videos:** https://www.youtube.com/watch?v=baD7ozusbH8&list=PLuTvWrqvrCQECrZOw2NErXfjMRVwfldwu
+**Project Playlist:** https://www.youtube.com/playlist?list=PLuTvWrqvrCQGYy7tOd5dF2-eWOMxQAlBp
 
 **Original Code:** https://www.youtube.com/watch?v=64X5sJJ4YKM
