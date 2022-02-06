@@ -12,7 +12,7 @@
 | TorchRed					                | Rainbow	                    | FallingSpectrogram          |Fireflies|
 | TorchWhite					              | RainbowStripe			        | FireAudio1                |FireNoise|
 |								                    | Spectrum		                | FireAudio2                |HueCycle|
-                |								    | Temperature		            | FireAudio3                |IncandescentTwinkles|
+|               |								    | Temperature		            | FireAudio3                |IncandescentTwinkles|
 |                                   |                               | ForestAudio               |Juggle|
 |                                   |                               | LavaAudio                 |Pride|
 |                                   |                               | LavaMagentaAudio          |Pulse|
