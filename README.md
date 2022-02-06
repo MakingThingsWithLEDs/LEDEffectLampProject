@@ -3,16 +3,16 @@
 
 | Fire Lamp                         | Lava / Plasma Lamp            | Sound Reactive            | Other Effects         |
 | --------------------------------- | ----------------------------- | ------------------------- | --------------------- |
-| TorchBlue						    | BlackAndWhite   		        | AnalyzerColumns	        |BlackAndWhiteNoise|
-| TorchChemical					    | Cloud                         | AnalyzerColumnsSolid	    |BPM|
-| TorchGreen					    | Forest			            | AnalyzerPixels			|CloudTwinkles|
-| TorchOrange					    | Lava				            | BlackAndBlueAudio         |ColorWaves|
-| TorchPurple					    | Ocean				            | BlackAndWhiteAudio        |Confetti|
+| TorchBlue						              | BlackAndWhite   		        | AnalyzerColumns	        |BlackAndWhiteNoise|
+| TorchChemical					            | Cloud                         | AnalyzerColumnsSolid	    |BPM|
+| TorchGreen					              | Forest			            | AnalyzerPixels			|CloudTwinkles|
+| TorchOrange					              | Lava				            | BlackAndBlueAudio         |ColorWaves|
+| TorchPurple					              | Ocean				            | BlackAndWhiteAudio        |Confetti|
 |                                   | Party	                        | CloudAudio                |Fire2012WithPalette|
-| TorchRed					        | Rainbow	                    | FallingSpectrogram          |Fireflies|
-| TorchWhite					    | RainbowStripe			        | FireAudio1                |FireNoise|
-|								    | Spectrum		                | FireAudio2                |HueCycle|
-|								    | Temperature		            | FireAudio3                |IncandescentTwinkles|
+| TorchRed					                | Rainbow	                    | FallingSpectrogram          |Fireflies|
+| TorchWhite					              | RainbowStripe			        | FireAudio1                |FireNoise|
+|								                    | Spectrum		                | FireAudio2                |HueCycle|
+                |								    | Temperature		            | FireAudio3                |IncandescentTwinkles|
 |                                   |                               | ForestAudio               |Juggle|
 |                                   |                               | LavaAudio                 |Pride|
 |                                   |                               | LavaMagentaAudio          |Pulse|
