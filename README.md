@@ -3,28 +3,26 @@
 
 | Fire Lamp                         | Lava / Plasma Lamp            | Sound Reactive            | Other Effects         |
 | --------------------------------- | ----------------------------- | ------------------------- | --------------------- |
-| TorchBlue						              | BlackAndWhite   		        | AnalyzerColumns	        |BlackAndWhiteNoise|
-| TorchChemical					            | Cloud                         | AnalyzerColumnsSolid	    |BPM|
-| TorchGreen					              | Forest			            | AnalyzerPixels			|CloudTwinkles|
-| TorchOrange					              | Lava				            | BlackAndBlueAudio         |ColorWaves|
-| TorchPurple					              | Ocean				            | BlackAndWhiteAudio        |Confetti|
-|                                   | Party	                        | CloudAudio                |Fire2012WithPalette|
-| TorchRed					                | Rainbow	                    | FallingSpectrogram          |Fireflies|
-| TorchWhite					              | RainbowStripe			        | FireAudio1                |FireNoise|
-|								                    | Spectrum		                | FireAudio2                |HueCycle|
-|               |								    | Temperature		            | FireAudio3                |IncandescentTwinkles|
-|                                   |                               | ForestAudio               |Juggle|
-|                                   |                               | LavaAudio                 |Pride|
-|                                   |                               | LavaMagentaAudio          |Pulse|
-|                                   |                               | LavaRainbowAudio          |Rainbow|
-|                                   |                               | OceanAudio                |RainbowTwinkles|
-|                                   |                               | PartyAudio                |RainbowWithGlitter|
-|                                   |                               | RainbowStripeAudio        |SolidColor|
-|                                   |                               |                           |Sinelon|
-|                                   |                               |                           |SnowTwinkles|
-|                                   |                               |                           |Wave|
-|||||
-|||||
+| TorchBlue						              | BlackAndWhite   		          | AudioAnalyzerColumns	    | BlackAndWhiteNoise|
+| TorchChemical					            | Cloud                         | AudioAnalyzerColumnsSolid | BPM|
+| TorchGreen					              | Forest			                  | AudioAnalyzerPixels			  | CloudTwinkles|
+| TorchOrange					              | Lava				                  | AudioBlackAndBlue         | ColorWaves|
+| TorchPurple					              | Ocean				                  | AudioBlackAndWhite        | Confetti|
+|                                   | Party	                        | AudioCloud                | Fire2012WithPalette|
+| TorchRed					                | Rainbow	                      | AudioFallingSpectrogram   | Fireflies|
+| TorchWhite					              | RainbowStripe			            | AudioFire1                | FireNoise|
+|								                    | Spectrum		                  | AudioFire2                | HueCycle|
+|               |								    | Temperature		                | AudioFire3                | IncandescentTwinkles|
+|                                   | RampRGB                       | AudioForest               | Juggle|
+|                                   | ColorCube                     | AudioLava                 | Pride|
+|                                   | Curvature                     | AudioLavaMagenta          | Pulse|
+|                                   | Shikon1                       | AudioLavaRainbow          | Rainbow|
+|                                   | Shikon2                       | AudioOcean                | RainbowTwinkles|
+|                                   | Slope                         | AudioParty                | RainbowWithGlitter|
+|                                   |                               | AudioRainbowStripe        | SolidColor|
+|                                   |                               |                           | Sinelon|
+|                                   |                               |                           | SnowTwinkles|
+|                                   |                               |                           | Wave|
 
 ### Support
 **How To Upload:** https://www.youtube.com/watch?v=rdC7tHk-8rY
