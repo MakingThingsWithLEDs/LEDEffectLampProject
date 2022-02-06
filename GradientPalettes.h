@@ -30,6 +30,19 @@ DEFINE_GRADIENT_PALETTE( ib_jul01_gp ) {
 // converted for FastLED with gammas (2.6, 2.2, 2.5)
 // Size: 20 bytes of program space.
 
+// Gradient palette "ramp_gp", originally from
+// http://soliton.vm.bytemark.co.uk/pub/cpt-city/grass/tn/ramp.png.index.html
+// converted for FastLED with gammas (2.6, 2.2, 2.5)
+// Size: 24 bytes of program space.
+
+DEFINE_GRADIENT_PALETTE( ramp_gp ) {
+    0,   0,  0,  0,
+   84,   0,  0,255,
+   84,   0,  0,  0,
+  170,   0,255,  0,
+  170,   0,  0,  0,
+  255, 255,  0,  0};
+
 DEFINE_GRADIENT_PALETTE( es_vintage_57_gp ) {
     0,   2,  1,  1,
    53,  18,  1,  0,
@@ -853,7 +866,54 @@ DEFINE_GRADIENT_PALETTE( shikon_23_gp ) {
   250,  26,  0,219,
   255,   2,  2,  2};
 
+// Gradient palette "curvature_gp", originally from
+// http://soliton.vm.bytemark.co.uk/pub/cpt-city/grass/tn/curvature.png.index.html
+// converted for FastLED with gammas (2.6, 2.2, 2.5)
+// Size: 36 bytes of program space.
 
+DEFINE_GRADIENT_PALETTE( curvature_gp ) {
+    0,   0,  0,  0,
+  114,   0,  0,255,
+  126,  22, 55,255,
+  127,   0,255,255,
+  127, 255,255,255,
+  127, 255,255,  0,
+  128, 255, 55,  0,
+  140, 255,  0,  0,
+  255, 255,  0,255};
+
+// Gradient palette "rstcurv_gp", originally from
+// http://soliton.vm.bytemark.co.uk/pub/cpt-city/grass/tn/rstcurv.png.index.html
+// converted for FastLED with gammas (2.6, 2.2, 2.5)
+// Size: 36 bytes of program space.
+
+DEFINE_GRADIENT_PALETTE( rstcurv_gp ) {
+    0,  42,  0,255,
+  114,   0,  0,255,
+  126,   0, 55,255,
+  127,   0,255,255,
+  127, 135,255,138,
+  127, 255,255,  0,
+  128, 255, 55,  0,
+  140, 255,  0,  0,
+  255, 255,  0,138};
+
+// Gradient palette "slope_gp", originally from
+// http://soliton.vm.bytemark.co.uk/pub/cpt-city/grass/tn/slope.png.index.html
+// converted for FastLED with gammas (2.6, 2.2, 2.5)
+// Size: 32 bytes of program space.
+
+DEFINE_GRADIENT_PALETTE( slope_gp ) {
+    0, 255,255,255,
+    5, 255,255,  0,
+   14,   0,255,  0,
+   28,   0,255,255,
+   42,   0,  0,255,
+   84, 255,  0,255,
+  141, 255,  0,  0,
+  255,   0,  0,  0};
+
+  
 // Single array of defined cpt-city color palettes.
 // This will let us programmatically choose one based on
 // a number, rather than having to activate each explicitly

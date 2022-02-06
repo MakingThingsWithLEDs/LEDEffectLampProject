@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-uint16_t AnalyzerColumns() {
+uint16_t AudioAnalyzerColumns() {
   fill_solid(leds, NUM_LEDS, CRGB::Black);
 
   for (uint8_t bandIndex = 0; bandIndex < bandCount; bandIndex++) {
@@ -43,7 +43,7 @@ uint16_t AnalyzerColumns() {
 }
 
 //===========================================
-uint16_t AnalyzerColumnsSolid() {
+uint16_t AudioAnalyzerColumnsSolid() {
   fill_solid(leds, NUM_LEDS, CRGB::Black);
 
   for (uint8_t bandIndex = 0; bandIndex < bandCount; bandIndex++) {
@@ -70,7 +70,7 @@ uint16_t AnalyzerColumnsSolid() {
 }
 
 //===========================================
-uint16_t AnalyzerPixels() {
+uint16_t AudioAnalyzerPixels() {
   fill_solid(leds, NUM_LEDS, CRGB::Black);
 
   for (uint8_t bandIndex = 0; bandIndex < bandCount; bandIndex++) {
@@ -97,7 +97,7 @@ uint16_t AnalyzerPixels() {
 }
 
 //===========================================
-uint16_t FallingSpectrogram() {
+uint16_t AudioFallingSpectrogram() {
   moveDown();
 
   for (uint8_t bandIndex = 0; bandIndex < bandCount; bandIndex++) {
@@ -136,7 +136,7 @@ uint16_t FallingSpectrogram() {
 }
 
 //===========================================
-uint16_t FireAudio1() {
+uint16_t AudioFire1() {
   moveUp();
   
   for (uint8_t bandIndex = 0; bandIndex < bandCount; bandIndex++) {
@@ -166,7 +166,7 @@ uint16_t FireAudio1() {
 }
 
 //===========================================
-uint16_t FireAudio2() {
+uint16_t AudioFire2() {
   moveUp();
 
   for (uint8_t bandIndex = 0; bandIndex < bandCount; bandIndex++) {
@@ -196,7 +196,7 @@ uint16_t FireAudio2() {
 }
 
 //===========================================
-uint16_t FireAudio3() {
+uint16_t AudioFire3() {
   static int lastPeak0 = 0;
   static int lastPeak6 = 0;
   noisespeedx = 0;
@@ -216,7 +216,7 @@ uint16_t FireAudio3() {
 }
 
 //===========================================
-uint16_t LavaRainbowAudio() {
+uint16_t AudioLavaRainbow() {
   static int lastPeak0 = 0;
   noisespeedx = 0;
   if (peaksLeft[0] >= lastPeak0) {
@@ -232,7 +232,7 @@ uint16_t LavaRainbowAudio() {
 }
 
 //===========================================
-uint16_t LavaAudio() {
+uint16_t AudioLava() {
   static int lastPeak0 = 0;
   noisespeedx = 0;
   if (peaksLeft[0] >= lastPeak0) {
@@ -247,7 +247,7 @@ uint16_t LavaAudio() {
 }
 
 //===========================================
-uint16_t ForestAudio() {
+uint16_t AudioForest() {
   static int lastPeak0 = 0;
   noisespeedx = 0;
   if (peaksLeft[0] >= lastPeak0) {
@@ -262,7 +262,7 @@ uint16_t ForestAudio() {
 }
 
 //===========================================
-uint16_t RainbowStripeAudio() {
+uint16_t AudioRainbowStripe() {
   static int lastPeak0 = 0;
   noisespeedy = 0;
   if (peaksLeft[0] >= lastPeak0) {
@@ -277,7 +277,7 @@ uint16_t RainbowStripeAudio() {
 }
 
 //===========================================
-uint16_t PartyAudio() {
+uint16_t AudioParty() {
   static int lastPeak0 = 0;
   noisespeedx = 0;
   if (peaksLeft[0] >= lastPeak0) {
@@ -292,7 +292,7 @@ uint16_t PartyAudio() {
 }
 
 //===========================================
-uint16_t LavaMagentaAudio() {
+uint16_t AudioLavaMagenta() {
   static int lastPeak0 = 0;
   noisespeedx = 0;
   if (peaksLeft[0] >= lastPeak0) {
@@ -309,7 +309,7 @@ uint16_t LavaMagentaAudio() {
 }
 
 //===========================================
-uint16_t CloudAudio() {
+uint16_t AudioCloud() {
   static int lastPeak0 = 0;
   noisespeedx = 0;
   if (peaksLeft[0] >= lastPeak0) {
@@ -324,7 +324,7 @@ uint16_t CloudAudio() {
 }
 
 //===========================================
-uint16_t LavaAudio2() {
+uint16_t AudioLava2() {
   static int lastPeak0 = 0;
   static int lastPeak6 = 0;
   noisespeedy = 0;
@@ -344,7 +344,7 @@ uint16_t LavaAudio2() {
 }
 
 //===========================================
-uint16_t OceanAudio() {
+uint16_t AudioOcean() {
   static int lastPeak0 = 0;
   noisespeedy = 0;
   if (peaksLeft[0] >= lastPeak0) {
@@ -359,7 +359,7 @@ uint16_t OceanAudio() {
 }
 
 //===========================================
-uint16_t BlackAndWhiteAudio() {
+uint16_t AudioBlackAndWhite() {
   SetupBlackAndWhiteStripedPalette();
   static int lastPeak0 = 0;
   noisespeedy = 0;
@@ -375,7 +375,7 @@ uint16_t BlackAndWhiteAudio() {
 }
 
 //===========================================
-uint16_t BlackAndBlueAudio() {
+uint16_t AudioBlackAndBlue() {
   SetupBlackAndBlueStripedPalette();
   static int lastPeak0 = 0;
   noisespeedx = 0;

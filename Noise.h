@@ -333,14 +333,22 @@ uint16_t Aurora() {
   return drawNoise(ofaurora_gp);
 }
 //===============================================
-uint16_t Shikon() {
+uint16_t Shikon1() {
+  noisespeedx = 1;
+  noisespeedy = 1;
+  noisespeedz = 0;
+  noisescale =  10; //20
+  colorLoop = 0;
+  return drawNoise(shikon_22_gp);
+}
+//===============================================
+uint16_t Shikon2() {
   noisespeedx = 1;
   noisespeedy = 1;
   noisespeedz = 0;
   noisescale =  10; //20
   colorLoop = 0;
   return drawNoise(shikon_23_gp);
-  return drawNoise(shikon_22_gp);
 }
 //===============================================
 uint16_t ColorCube() {
@@ -350,5 +358,41 @@ uint16_t ColorCube() {
   noisescale =  15; //20
   colorLoop = 0;
   return drawNoise(colorcube_gp);
+}
+//===============================================
+uint16_t RampRGB() {
+  noisespeedx = 0;
+  noisespeedy = 0;
+  noisespeedz = 1;
+  noisescale =  6; //20
+  colorLoop = 0;
+  return drawNoise(ramp_gp);
+}
+//===============================================
+uint16_t Curvature() {
+  noisespeedx = 0;
+  noisespeedy = 0;
+  noisespeedz = 1;
+  noisescale =  6; //20
+  colorLoop = 0;
+  return drawNoise(curvature_gp);
+}
+//===============================================
+uint16_t Rstcurv() {
+  noisespeedx = 0;
+  noisespeedy = 0;
+  noisespeedz = 1;
+  noisescale =  6; //20
+  colorLoop = 0;
+  return drawNoise(rstcurv_gp);
+}
+//===============================================
+uint16_t Slope() {
+  noisespeedx = 0;
+  noisespeedy = 0;
+  noisespeedz = 1;
+  noisescale =  6; //20
+  colorLoop = 0;
+  return drawNoise(slope_gp);
 }
 //===============================================

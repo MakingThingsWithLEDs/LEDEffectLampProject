@@ -138,56 +138,58 @@ uint8_t gHue = 0; // rotating "base color" used by many of the patterns
 #include "FireOrange.h"
 #include "AudioLogic.h"
 #include "AudioPatterns.h"
-
+//===================================================================================================================================================START EFFECT PLAYLIST
 // EFFECTS LISTS                    // In automatic mode will display in order of the list.
 const PatternList patterns = {      // remove or add // to enable/disable effects
 
-//--Fire-Lamp-Effects--
-//  FireBlue,
-//  FireChemical,
-//  FireGreen,
-//  FireOrange,
-//  FirePurple,
 //  FireRainbow, // work in progress
-//  FireRed,
-//  FireWhite,
-
-//--Lava-Plasma-Lamp-Effects--
-//  BlackAndWhite,
-//  Cloud,   
-//  ColorCube,
-//  Aurora,
-//  DeepSea,
-//  Forest,
-//  Lava,
-//  OceanBreeze,
-//  Ocean,
+  Aurora,
+  BlackAndWhite,
+  Cloud,   
+  ColorCube,
+  Curvature,
+  DeepSea,
+  FireBlue,
+  FireChemical,
+  FireGreen,
+  FireOrange,
+  FirePurple,
+  FireRed,
+  FireWhite,
+  Forest,
+  Lava,
+  LavaLampRainbow,
+  LavaLampRainbowStripe,
+  Ocean,
+  OceanBreeze,
   Party,
-//  LavaLampRainbow,
-//  LavaLampRainbowStripe,
-//  Shikon,
-//  Spectrum,
-//  Temperature,
+  RampRGB,
+  Rstcurv,
+  Shikon1,
+  Shikon2,
+  Slope,
+  Spectrum,
+  Temperature,
 
 //--Sound-Reactive-Effects--
-//  AnalyzerColumns,
-//  AnalyzerColumnsSolid,
-//  AnalyzerPixels,
-//  BlackAndBlueAudio,
-//  BlackAndWhiteAudio,
-//  CloudAudio,
-//  FallingSpectrogram,
-//  FireAudio1,
-//  FireAudio2,
-//  FireAudio3,
-//  ForestAudio,
-//  LavaAudio,
-//  LavaAudio2,
-//  LavaMagentaAudio,
-//  LavaRainbowAudio,
-//  OceanAudio,
-//  PartyAudio,
-//  RainbowStripeAudio,
+//  AudioAnalyzerColumns,
+//  AudioAnalyzerColumnsSolid,
+//  AudioAnalyzerPixels,
+//  AudioBlackAndBlue,
+//  AudioBlackAndWhite,
+//  AudioCloud,
+//  AudioFallingSpectrogram,
+//  AudioFire1,
+//  AudioFire2,
+//  AudioFire3,
+//  AudioForest,
+//  AudioLava,
+//  AudioLava2,
+//  AudioLavaMagenta,
+//  AudioLavaRainbow,
+//  AudioOcean,
+//  AudioParty,
+//  AudioRainbowStripe,
 
 //---Additional-Effects---
 //  BPM,
@@ -211,7 +213,7 @@ const PatternList patterns = {      // remove or add // to enable/disable effect
 //  Wave,
 
 };
-
+//===================================================================================================================================================END EFFECT PLAYLIST
 const int patternCount = ARRAY_SIZE(patterns);
 
 void setup() {
