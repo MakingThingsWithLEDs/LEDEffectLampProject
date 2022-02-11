@@ -142,11 +142,12 @@ uint8_t gHue = 0; // rotating "base color" used by many of the patterns
 // EFFECTS LISTS                    // In automatic mode will display in order of the list.
 const PatternList patterns = {      // remove or add // to enable/disable effects
 
-//  FireRainbow, // work in progress
   Aurora,
   BlackAndWhite,
+  Calbayo,
   Cloud,   
   ColorCube,
+  CoralReef,
   Curvature,
   DeepSea,
   FireBlue,
@@ -154,6 +155,7 @@ const PatternList patterns = {      // remove or add // to enable/disable effect
   FireGreen,
   FireOrange,
   FirePurple,
+  Fire2012Rainbow1,
   FireRed,
   FireWhite,
   Forest,
@@ -167,7 +169,6 @@ const PatternList patterns = {      // remove or add // to enable/disable effect
   Rstcurv,
   Shikon1,
   Shikon2,
-  Slope,
   Spectrum,
   Temperature,
 

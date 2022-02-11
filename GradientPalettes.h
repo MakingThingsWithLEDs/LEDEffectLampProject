@@ -93,6 +93,21 @@ DEFINE_GRADIENT_PALETTE( rgi_15_gp ) {
   223,  56,  9, 35,
   255,  22,  6, 38};
 
+// Gradient palette "calbayo_15_gp", originally from
+// http://soliton.vm.bytemark.co.uk/pub/cpt-city/gacruxa/calbayo/tn/calbayo-15.png.index.html
+// converted for FastLED with gammas (2.6, 2.2, 2.5)
+// Size: 28 bytes of program space.
+
+DEFINE_GRADIENT_PALETTE( calbayo_15_gp ) {
+    0, 210,131,  1,
+   63, 210, 31,  6,
+  125,  41,  2,  3,
+  125,   7, 20, 12,
+  125,   1, 58, 29,
+  243,   1, 25, 14,
+  255,   3,  6,  6};
+
+
 // Gradient palette "retro2_16_gp", originally from
 // http://soliton.vm.bytemark.co.uk/pub/cpt-city/ma/retro2/tn/retro2_16.png.index.html
 // converted for FastLED with gammas (2.6, 2.2, 2.5)
@@ -898,22 +913,6 @@ DEFINE_GRADIENT_PALETTE( rstcurv_gp ) {
   140, 255,  0,  0,
   255, 255,  0,138};
 
-// Gradient palette "slope_gp", originally from
-// http://soliton.vm.bytemark.co.uk/pub/cpt-city/grass/tn/slope.png.index.html
-// converted for FastLED with gammas (2.6, 2.2, 2.5)
-// Size: 32 bytes of program space.
-
-DEFINE_GRADIENT_PALETTE( slope_gp ) {
-    0, 255,255,255,
-    5, 255,255,  0,
-   14,   0,255,  0,
-   28,   0,255,255,
-   42,   0,  0,255,
-   84, 255,  0,255,
-  141, 255,  0,  0,
-  255,   0,  0,  0};
-
-  
 // Single array of defined cpt-city color palettes.
 // This will let us programmatically choose one based on
 // a number, rather than having to activate each explicitly

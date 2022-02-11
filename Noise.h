@@ -379,20 +379,28 @@ uint16_t Curvature() {
 }
 //===============================================
 uint16_t Rstcurv() {
-  noisespeedx = 0;
-  noisespeedy = 0;
+  noisespeedx = 2;
+  noisespeedy = 2;
   noisespeedz = 1;
-  noisescale =  6; //20
+  noisescale =  50; //20
   colorLoop = 0;
   return drawNoise(rstcurv_gp);
 }
 //===============================================
-uint16_t Slope() {
+uint16_t Calbayo() {
   noisespeedx = 0;
-  noisespeedy = 0;
-  noisespeedz = 1;
-  noisescale =  6; //20
+  noisespeedy = 1;
+  noisespeedz = 0;
+  noisescale =  10; //20
   colorLoop = 0;
-  return drawNoise(slope_gp);
+  return drawNoise(calbayo_15_gp);
 }
 //===============================================
+uint16_t CoralReef() {
+  noisespeedx = 1;
+  noisespeedy = 0;
+  noisespeedz = 1;
+  noisescale =  25; //20
+  colorLoop = 0;
+  return drawNoise(Coral_reef_gp);
+}
