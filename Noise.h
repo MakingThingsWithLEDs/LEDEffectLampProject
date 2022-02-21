@@ -387,7 +387,7 @@ uint16_t Rstcurv() {
   return drawNoise(rstcurv_gp);
 }
 //===============================================
-uint16_t Calbayo() {
+uint16_t Calbayo15() {
   noisespeedx = 0;
   noisespeedy = 1;
   noisespeedz = 0;
@@ -403,4 +403,22 @@ uint16_t CoralReef() {
   noisescale =  25; //20
   colorLoop = 0;
   return drawNoise(Coral_reef_gp);
+}
+//===============================================
+uint16_t Vintage1() {
+  noisespeedx = 1;
+  noisespeedy = 1;
+  noisespeedz = 0;
+  noisescale =  12; //20
+  colorLoop = 0;
+  return drawNoise(es_vintage_01_gp);
+}
+//===============================================
+uint16_t Vintage49() {
+  noisespeedx = 1;
+  noisespeedy = 1;
+  noisespeedz = 0;
+  noisescale =  12; //20
+  colorLoop = 0;
+  return drawNoise(es_vintage_49_gp);
 }

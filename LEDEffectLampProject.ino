@@ -87,7 +87,7 @@ typedef uint16_t(*PatternFunctionPointer)();
 typedef PatternFunctionPointer PatternList [];
 #define ARRAY_SIZE(A) (sizeof(A) / sizeof((A)[0]))
 
-int autoPlayDurationSeconds = 40;                                     // Set automatic play time per effect adjust as required
+int autoPlayDurationSeconds = 60;                                     // Set automatic play time per effect adjust as required
 unsigned int autoPlayTimeout = 10;
 bool autoplayEnabled = true;                                          // Disable / Enable automatic play function, use false if you wish to use momentary switch to control effects.
 
@@ -144,9 +144,10 @@ const PatternList patterns = {      // remove or add // to enable/disable effect
 
   Aurora,
   BlackAndWhite,
-  Calbayo,
+  Calbayo15,
   Cloud,   
   ColorCube,
+  ColorWaves, 
   CoralReef,
   Curvature,
   DeepSea,
@@ -171,6 +172,7 @@ const PatternList patterns = {      // remove or add // to enable/disable effect
   Shikon2,
   Spectrum,
   Temperature,
+  Vintage49,
 
 //--Sound-Reactive-Effects--
 //  AudioAnalyzerColumns,
@@ -195,7 +197,6 @@ const PatternList patterns = {      // remove or add // to enable/disable effect
 //---Additional-Effects---
 //  BPM,
 //  CloudTwinkles,
-//  ColorWaves,  
 //  Confetti,
 //  Fire2012WithPalette,
 //  Fireflies,

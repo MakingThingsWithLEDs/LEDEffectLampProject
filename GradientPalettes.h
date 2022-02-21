@@ -25,11 +25,6 @@ DEFINE_GRADIENT_PALETTE( ib_jul01_gp ) {
   132,  57,131, 28,
   255, 113,  1,  1};
 
-// Gradient palette "es_vintage_57_gp", originally from
-// http://soliton.vm.bytemark.co.uk/pub/cpt-city/es/vintage/tn/es_vintage_57.png.index.html
-// converted for FastLED with gammas (2.6, 2.2, 2.5)
-// Size: 20 bytes of program space.
-
 // Gradient palette "ramp_gp", originally from
 // http://soliton.vm.bytemark.co.uk/pub/cpt-city/grass/tn/ramp.png.index.html
 // converted for FastLED with gammas (2.6, 2.2, 2.5)
@@ -42,6 +37,11 @@ DEFINE_GRADIENT_PALETTE( ramp_gp ) {
   170,   0,255,  0,
   170,   0,  0,  0,
   255, 255,  0,  0};
+
+// Gradient palette "es_vintage_57_gp", originally from
+// http://soliton.vm.bytemark.co.uk/pub/cpt-city/es/vintage/tn/es_vintage_57.png.index.html
+// converted for FastLED with gammas (2.6, 2.2, 2.5)
+// Size: 20 bytes of program space.
 
 DEFINE_GRADIENT_PALETTE( es_vintage_57_gp ) {
     0,   2,  1,  1,
@@ -64,6 +64,22 @@ DEFINE_GRADIENT_PALETTE( es_vintage_01_gp ) {
   153,  16,  0,  1,
   229,   4,  1,  1,
   255,   4,  1,  1};
+
+// Gradient palette "es_vintage_49_gp", originally from
+// http://soliton.vm.bytemark.co.uk/pub/cpt-city/es/vintage/tn/es_vintage_49.png.index.html
+// converted for FastLED with gammas (2.6, 2.2, 2.5)
+// Size: 32 bytes of program space.
+
+DEFINE_GRADIENT_PALETTE( es_vintage_49_gp ) {
+    0,   3,  1,  1,
+   51,  19,  1,  0,
+  109, 169, 71,  1,
+  127, 239,118,  6,
+  145, 167, 70,  1,
+  204,  19,  1,  0,
+  229,   3,  1,  1,
+  255,   3,  1,  1};
+
 
 // Gradient palette "es_rivendell_15_gp", originally from
 // http://soliton.vm.bytemark.co.uk/pub/cpt-city/es/rivendell/tn/es_rivendell_15.png.index.html
@@ -912,6 +928,17 @@ DEFINE_GRADIENT_PALETTE( rstcurv_gp ) {
   128, 255, 55,  0,
   140, 255,  0,  0,
   255, 255,  0,138};
+
+  DEFINE_GRADIENT_PALETTE( Rainbow2_gp ) {
+      0,  255,    0,    0, // Red
+     32,  171,   85,    0, // Orange
+     64,  171,  171,    0, // Yellow
+     96,    0,  255,    0, // Green
+    128,    0,  171,   85, // Aqua
+    160,    0,    0,  255, // Blue
+    192,   85,    0,  171, // Purple
+    224,  171,    0,   85, // Pink
+    255,  255,    0,    0};// and back to Red
 
 // Single array of defined cpt-city color palettes.
 // This will let us programmatically choose one based on
