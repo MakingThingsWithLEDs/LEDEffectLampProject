@@ -333,7 +333,7 @@ uint16_t Aurora() {
   return drawNoise(ofaurora_gp);
 }
 //===============================================
-uint16_t Shikon1() {
+uint16_t Shikon22() {
   noisespeedx = 1;
   noisespeedy = 1;
   noisespeedz = 0;
@@ -342,7 +342,7 @@ uint16_t Shikon1() {
   return drawNoise(shikon_22_gp);
 }
 //===============================================
-uint16_t Shikon2() {
+uint16_t Shikon23() {
   noisespeedx = 1;
   noisespeedy = 1;
   noisespeedz = 0;
