@@ -422,3 +422,12 @@ uint16_t Vintage49() {
   colorLoop = 0;
   return drawNoise(es_vintage_49_gp);
 }
+//===============================================
+uint16_t Analogous1() {
+  noisespeedx = 1;
+  noisespeedy = 1;
+  noisespeedz = 0;
+  noisescale =  18; //20
+  colorLoop = 0;
+  return drawNoise(Analogous_1_gp);
+}

@@ -144,6 +144,7 @@ uint8_t gHue = 0; // rotating "base color" used by many of the patterns
 // EFFECTS LISTS                    // In automatic mode will display in order of the list.
 const PatternList patterns = {      // remove or add // to enable/disable effects
 
+  Analogous1,
   Aurora,
   BlackAndWhite,
   Calbayo15,
