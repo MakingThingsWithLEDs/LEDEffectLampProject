@@ -134,6 +134,7 @@ uint8_t gHue = 0; // rotating "base color" used by many of the patterns
 #include "FireRed.h"
 #include "FireGreen.h"
 #include "FireBlue.h"
+#include "FireElectricBlue.h"
 #include "FireChemical.h"
 #include "FireRainbow.h"
 #include "FirePurple.h"
@@ -155,6 +156,7 @@ const PatternList patterns = {      // remove or add // to enable/disable effect
   Curvature,
   DeepSea,
   Fire2012Rainbow1,
+  FireElectricBlue,
   FireBlue,
   FireChemical,
   FireGreen,
