@@ -27,7 +27,7 @@
 ### Support
 **How To Upload:** https://www.youtube.com/watch?v=rdC7tHk-8rY
 
-**Build Project:** https://www.youtube.com/playlist?list=PLuTvWrqvrCQGYy7tOd5dF2-eWOMxQAlBp
+**Build Project:** https://www.youtube.com/playlist?list=PLuTvWrqvrCQGxWSenKpJilgakO-iD05nO
 
 **Project Demos:** https://www.youtube.com/@MakingThingsWithLight
 
