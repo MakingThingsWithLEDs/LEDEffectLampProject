@@ -25,10 +25,5 @@
 |                                   |                               |                           | Wave|
 
 ### Support
-**How To Upload:** https://www.youtube.com/watch?v=rdC7tHk-8rY
-
-**Build Project:** https://www.youtube.com/playlist?list=PLuTvWrqvrCQGxWSenKpJilgakO-iD05nO
-
-**Project Demos:** https://www.youtube.com/playlist?list=PLuTvWrqvrCQEhRvtJ7Jk0_R1W5sg-9luG
-
-**Original Code:** https://www.youtube.com/watch?v=64X5sJJ4YKM
+**Project:** https://www.youtube.com/playlist?list=PLuTvWrqvrCQGxWSenKpJilgakO-iD05nO
+https://youtube.com/shorts/MAVUOS6Amuc?feature=share
