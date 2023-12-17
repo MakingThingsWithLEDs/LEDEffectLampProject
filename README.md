@@ -26,4 +26,6 @@
 
 ### Support
 **Project:** https://www.youtube.com/playlist?list=PLuTvWrqvrCQGxWSenKpJilgakO-iD05nO
+
+![Custom Built Matrix ColorCube](https://github.com/MakingThingsWithLEDs/LEDEffectLampProject/assets/77110859/feb55dd8-526e-4138-854d-6e4be939efe4)
 https://youtube.com/shorts/MAVUOS6Amuc?feature=share
