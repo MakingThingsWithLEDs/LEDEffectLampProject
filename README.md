@@ -1,5 +1,4 @@
-# LED Effect Lamp For PJRC Teensy / WS2812B Matrix / MSGEQ7
-![Github Image](https://user-images.githubusercontent.com/77110859/126079820-e466e626-3ed6-4a38-a151-e06197d52e65.png)
+# LED Effect Lamp For PJRC Teensy / WS2812B Matrix
 
 | Fire Lamp                         | Lava / Plasma Lamp            | Sound Reactive            | Other Effects         |
 | --------------------------------- | ----------------------------- | ------------------------- | --------------------- |
