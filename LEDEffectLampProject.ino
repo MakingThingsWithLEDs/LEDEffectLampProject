@@ -16,7 +16,7 @@
  * 
  * ---------------------------------------------------------------------------------------------------*
  * 
- * Modified by RMProjectsUK https://www.youtube.com/c/RMProjectsUK
+ * Modified by Making Things With LEDs https://www.youtube.com/@MakingThingsWithLEDs
  * I have left all previous comments from the original code writers in place, i ask you do the same.
  * If you use this code for your own projects and upload it please link back to the original sources.
  * 
