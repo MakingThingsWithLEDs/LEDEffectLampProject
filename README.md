@@ -1,4 +1,5 @@
 # LED Effect Lamp For PJRC Teensy / WS2812B Matrix
+# PROJECT HAS BEEN MOVED TO: https://github.com/MakingThingsWithLEDs/FlameAndEffectLampProject
 
 | Fire Lamp                         | Lava / Plasma Lamp            | Sound Reactive            | Other Effects         |
 | --------------------------------- | ----------------------------- | ------------------------- | --------------------- |
